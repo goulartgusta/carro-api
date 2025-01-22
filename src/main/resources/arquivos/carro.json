@@ -1,0 +1,43 @@
+{
+  "ligado" : false,
+  "modelo" : "Fusca",
+  "ano" : 1980,
+  "velocidadeAtual" : 0.0,
+  "distanciaPercorrida" : 0.0,
+  "peso" : 800.0,
+  "acelerando" : false,
+  "chassi" : {
+    "estadoTanque" : "CHEIO",
+    "motor" : {
+      "tipoMotor" : "HIBRIDO",
+      "potencia" : 120.0,
+      "ligado" : true
+    },
+    "sistemaEletrico" : {
+      "estadoBateria" : "CARREGADA",
+      "faroisAcesos" : true
+    },
+    "pneus" : {
+      "DIANTEIRO_ESQUERDO" : "CHEIO",
+      "DIANTEIRO_DIREITO" : "CHEIO",
+      "TRASEIRO_ESQUERDO" : "CHEIO",
+      "TRASEIRO_DIREITO" : "CHEIO"
+    },
+    "pedais" : {
+      "ACELERADOR" : "PRESSIONADO",
+      "FREIO" : "NAO_PRESSIONADO"
+    }
+  },
+  "carroceria" : {
+    "portasFechadas" : true,
+    "estadoVidro" : "LIMPO",
+    "estadoRetrovisores" : "ALINHADO",
+    "bancos" : {
+      "MOTORISTA" : "OCUPADO",
+      "PASSAGEIRO" : "LIVRE",
+      "TRASEIRO_ESQUERDO" : "LIVRE",
+      "TRASEIRO_CENTRAL" : "LIVRE",
+      "TRASEIRO_DIREITO" : "LIVRE"
+    }
+  }
+}

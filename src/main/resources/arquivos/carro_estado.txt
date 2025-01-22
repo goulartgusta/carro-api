@@ -1,0 +1,9 @@
+Estado do Carro:
+Ligado: false
+Modelo: Fusca
+Ano: 1980
+Velocidade Atual: 0.0
+Distância Percorrida: 0.0
+Acelerando: false
+Inicio da Corrida: null
+Estado Interno (State): CarroDesligadoState
